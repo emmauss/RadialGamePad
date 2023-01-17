@@ -7,6 +7,8 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Authors>emmaus</Authors>
     <Description>A customizable Android library for creating virtual gamepads</Description>
+    <RepositoryUrl>https://github.com/emmauss/RadialGamePad</RepositoryUrl>
+    <Version>2.0.0-beta1</Version>
   </PropertyGroup>
   <ItemGroup>
     <None Remove="radialgamepad-2.0.0.aar" />
