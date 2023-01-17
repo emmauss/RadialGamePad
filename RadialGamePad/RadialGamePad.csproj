@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0-android</TargetFramework>
+    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>emmaus</Authors>
+    <Description>A customizable Android library for creating virtual gamepads</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="radialgamepad-2.0.0.aar" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.5.1" />
+    <PackageReference Include="Xamarin.Kotlin.StdLib.Jdk7" Version="1.7.10" />
+    <PackageReference Include="Xamarin.KotlinX.Coroutines.Core.Jvm" Version="1.6.4" />
+  </ItemGroup>
+</Project>
